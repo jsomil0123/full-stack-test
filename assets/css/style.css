@@ -1,0 +1,16 @@
+/* style.css */
+body {
+    padding-top: 30px;
+}
+.col3-image {
+    width: 100%;
+    padding-top: 100%;
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width: 768px) {
+    #tabNav { display: none; }
+}
+@media (min-width: 769px) {
+    #tabAccordion { display: none; }
+}
